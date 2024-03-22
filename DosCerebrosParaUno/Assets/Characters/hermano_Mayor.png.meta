@@ -1,0 +1,1019 @@
+fileFormatVersion: 2
+guid: 5ff969e61af7e6043901b9d89b707a46
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hermano_Mayor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 307
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0136c4e7b43af9428c714d31b63e43f
+      internalID: 559507576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 307
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26fe0b42449d85419a566a10d73868e
+      internalID: -1216066072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 307
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb1c0f6649c022479d2a75c5939008e
+      internalID: 87173974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 307
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fe7624e580f604f887799f08790c28
+      internalID: 902466385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_4
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 307
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1df6dad8b2d3e42b4bb76cea7ed317
+      internalID: 2140122197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_5
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 307
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bcb7342b816d443a242f5bdeedddee
+      internalID: -1971302027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620cf94d5110bcf41a31670cc2a8ac64
+      internalID: -1580996054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_11
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 248
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6b356a6168dd545a01c96278962402
+      internalID: -1216420821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_12
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 248
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313c3aea06dc61c4aa34f8819f831726
+      internalID: -1941579660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_13
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 248
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68f0282a82914e49acff08345b13c08
+      internalID: 68559935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_14
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 248
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88031a9739eb94f479d948203ff8ebdd
+      internalID: 1926907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_15
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 248
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d23559be1759a4582178719ec144b0
+      internalID: 464011132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_16
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 248
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3c3ef9e81838642b10ca7d11becf6e
+      internalID: 1148675029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65d2b614ec7ebd41a5af860afa8ad50
+      internalID: -994262740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_22
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 189
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b16d5319d72d4644af9483ad25f94f2
+      internalID: 1104352465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_23
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 189
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945d9db4a5327374282ae39f79388841
+      internalID: 681835322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_24
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 189
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f7735e80fdec94299ce09d6c9e1512
+      internalID: -376815238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_25
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 189
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77ebabfde200534b9e6342f0f8e8534
+      internalID: -932695741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b77df9d7f2ad54187dbe5dd12f0eb1
+      internalID: 1532848628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_31
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 130
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3416630197fc4469d6af3ccc3493d8
+      internalID: 1517069322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_32
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 130
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78513e8fca5edd4590711f750aa3436
+      internalID: -1159368945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_33
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 130
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a3004f1b7f5ad46bbbda0a14b2d425
+      internalID: 1103176948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_34
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 130
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c0267197c62f94d8987218bdc69be3
+      internalID: 455542622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_35
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 130
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5db35020680064e8cb3fe50e84eae7
+      internalID: -279556735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_36
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 130
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7531298b084e240b7823123c3e0fc8
+      internalID: 1366420843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_37
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 130
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dfee5a0dc37924b806944a40f29bc4
+      internalID: 2075983612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49248556e1b5f844a6f17728a21ab33
+      internalID: 78481621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_42
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 71
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b42d916da0367944bc13b7462c91be5
+      internalID: 10269479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_43
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 71
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b626b7b32d13a2941aad1b59a098ef8b
+      internalID: -969808430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_44
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 71
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299e013ac8ea1b84082d9f371b03e56a
+      internalID: 1965897447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_45
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 71
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804ec7236bf616e458de7a653efa0a99
+      internalID: 2015413124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_46
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 71
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc61fc17a385840408b15b6f11e8fc7a
+      internalID: -1433606864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_47
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 71
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add346f1127f49b40b4e5abca9953364
+      internalID: 1288178785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_48
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 71
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732c8c62301ea6347b4cfaebd3d90c9d
+      internalID: 1068285998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acbf0348510c4f4f9b1bd23db93f4fa
+      internalID: -1907360991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_53
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 12
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa59c035ecb58b4b8b733e7cefe140b
+      internalID: -1673557724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_54
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 12
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aae0f1390e62e6429f01d459361433b
+      internalID: -246081619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_55
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 12
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098fc986527a8dc41af53afcb6a8e3a9
+      internalID: -332783877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hermano_Mayor_56
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 12
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d650abcfdcccd3142a1f4a6cfcdc3538
+      internalID: 115264657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hermano_Mayor_0: 559507576
+      hermano_Mayor_1: -1216066072
+      hermano_Mayor_10: -1580996054
+      hermano_Mayor_11: -1216420821
+      hermano_Mayor_12: -1941579660
+      hermano_Mayor_13: 68559935
+      hermano_Mayor_14: 1926907
+      hermano_Mayor_15: 464011132
+      hermano_Mayor_16: 1148675029
+      hermano_Mayor_17: 933375087
+      hermano_Mayor_18: 1290785758
+      hermano_Mayor_19: 10821659
+      hermano_Mayor_2: 87173974
+      hermano_Mayor_20: -1788957393
+      hermano_Mayor_21: -994262740
+      hermano_Mayor_22: 1104352465
+      hermano_Mayor_23: 681835322
+      hermano_Mayor_24: -376815238
+      hermano_Mayor_25: -932695741
+      hermano_Mayor_26: -1132766997
+      hermano_Mayor_27: -687656745
+      hermano_Mayor_28: 1206989387
+      hermano_Mayor_29: 1019050024
+      hermano_Mayor_3: 902466385
+      hermano_Mayor_30: 1532848628
+      hermano_Mayor_31: 1517069322
+      hermano_Mayor_32: -1159368945
+      hermano_Mayor_33: 1103176948
+      hermano_Mayor_34: 455542622
+      hermano_Mayor_35: -279556735
+      hermano_Mayor_36: 1366420843
+      hermano_Mayor_37: 2075983612
+      hermano_Mayor_38: -1596758151
+      hermano_Mayor_39: 591579067
+      hermano_Mayor_4: 2140122197
+      hermano_Mayor_40: 1740204835
+      hermano_Mayor_41: 78481621
+      hermano_Mayor_42: 10269479
+      hermano_Mayor_43: -969808430
+      hermano_Mayor_44: 1965897447
+      hermano_Mayor_45: 2015413124
+      hermano_Mayor_46: -1433606864
+      hermano_Mayor_47: 1288178785
+      hermano_Mayor_48: 1068285998
+      hermano_Mayor_49: 231138310
+      hermano_Mayor_5: -1971302027
+      hermano_Mayor_50: -186904481
+      hermano_Mayor_51: 1797929266
+      hermano_Mayor_52: -1907360991
+      hermano_Mayor_53: -1673557724
+      hermano_Mayor_54: -246081619
+      hermano_Mayor_55: -332783877
+      hermano_Mayor_56: 115264657
+      hermano_Mayor_57: 1412567755
+      hermano_Mayor_58: 149607056
+      hermano_Mayor_59: -1381941873
+      hermano_Mayor_6: -170225762
+      hermano_Mayor_7: -836626048
+      hermano_Mayor_8: 1901273106
+      hermano_Mayor_9: -1037804577
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
