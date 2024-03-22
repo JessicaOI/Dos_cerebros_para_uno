@@ -2,64 +2,79 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class jugador2 : MonoBehaviour
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(CapsuleCollider2D))]
+
+public class CharacterController2D : MonoBehaviour
 {
-    public float speed = 5f;
-    public float jumpForce = 10f;
-    private Rigidbody2D rb;
-    private bool isGrounded;
-    public Transform groundCheck;
-    public float groundCheckRadius = 0.2f;
-    public LayerMask groundLayer;
+    public float maxSpeed = 3.4f;
+    public float jumpHeight = 6.5f;
+    public float gravityScale = 1.5f;
+
+    bool facingRight = true;
+    float moveDirection = 0;
+    Rigidbody2D r2d;
+    CapsuleCollider2D mainCollider;
+    Transform t;
+
+    int jumpCount = 0; // Controla el número de saltos
+    public int maxJump = 2; // Máximo de saltos permitidos antes de tocar el suelo
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        t = transform;
+        r2d = GetComponent<Rigidbody2D>();
+        mainCollider = GetComponent<CapsuleCollider2D>();
+        r2d.freezeRotation = true;
+        r2d.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+        r2d.gravityScale = gravityScale;
+        facingRight = t.localScale.x > 0;
     }
 
     void Update()
     {
-        Move();
-        Jump();
-
-        if (Input.GetKeyDown(KeyCode.S))
+        moveDirection = 0;
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
         {
-            // Intenta bajar por la plataforma.
-            // Necesitarás referenciar aquí el Collider2D de tu jugador.
-            StartCoroutine(DropDown());
+            moveDirection = Input.GetKey(KeyCode.A) ? -1 : 1;
+        }
+
+        if (moveDirection != 0)
+        {
+            if (moveDirection > 0 && !facingRight || moveDirection < 0 && facingRight)
+            {
+                facingRight = !facingRight;
+                t.localScale = new Vector3(-t.localScale.x, t.localScale.y, t.localScale.z);
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.W) && jumpCount < maxJump)
+        {
+            r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight);
+            jumpCount++; // Incrementamos el contador de saltos
         }
     }
 
-    void Move()
+    void FixedUpdate()
     {
-        float moveInput = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+        r2d.velocity = new Vector2(moveDirection * maxSpeed, r2d.velocity.y);
+    }
 
-        if (moveInput != 0)
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Suelo"))
         {
-            transform.localScale = new Vector3(Mathf.Sign(moveInput), 1f, 1f);
+            jumpCount = 0; // Restablecer el contador de saltos cuando toca el suelo
         }
     }
 
-    void Jump()
+    // Asegúrate de usar este método para cuando el personaje "deja" el suelo, si es necesario.
+    void OnCollisionExit2D(Collision2D collision)
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-
-        if (Input.GetKeyDown(KeyCode.W) && isGrounded)
+        if (collision.gameObject.CompareTag("Suelo"))
         {
-            rb.velocity = Vector2.up * jumpForce;
-        }
-    }
-
-    IEnumerator DropDown()
-    {
-        // Desactiva brevemente el collider para bajar.
-        Collider2D collider = GetComponent<Collider2D>();
-        if (collider != null)
-        {
-            collider.enabled = false;
-            yield return new WaitForSeconds(0.5f); // Ajusta este tiempo según sea necesario.
-            collider.enabled = true;
+            // Esta línea es opcional, dependiendo de cómo quieras manejar la lógica de tu juego.
+            // Podrías querer hacer algo cuando el personaje deja de tocar el suelo.
         }
     }
 }
