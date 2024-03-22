@@ -1,80 +1,50 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(CapsuleCollider2D))]
-
-public class CharacterController2D : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
-    public float maxSpeed = 3.4f;
-    public float jumpHeight = 6.5f;
-    public float gravityScale = 1.5f;
-
-    bool facingRight = true;
-    float moveDirection = 0;
-    Rigidbody2D r2d;
-    CapsuleCollider2D mainCollider;
-    Transform t;
-
-    int jumpCount = 0; // Controla el número de saltos
-    public int maxJump = 2; // Máximo de saltos permitidos antes de tocar el suelo
+    public float speed = 5.0f; // Velocidad de movimiento lateral
+    public float jumpForce = 10.0f; // Fuerza del salto
+    private Rigidbody2D rb;
+    private bool isGrounded; // Verificar si el jugador está en el suelo
 
     void Start()
     {
-        t = transform;
-        r2d = GetComponent<Rigidbody2D>();
-        mainCollider = GetComponent<CapsuleCollider2D>();
-        r2d.freezeRotation = true;
-        r2d.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
-        r2d.gravityScale = gravityScale;
-        facingRight = t.localScale.x > 0;
+        rb = GetComponent<Rigidbody2D>(); // Obtenemos el componente Rigidbody2D del jugador
     }
 
     void Update()
     {
-        moveDirection = 0;
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        Move();
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            moveDirection = Input.GetKey(KeyCode.A) ? -1 : 1;
-        }
-
-        if (moveDirection != 0)
-        {
-            if (moveDirection > 0 && !facingRight || moveDirection < 0 && facingRight)
-            {
-                facingRight = !facingRight;
-                t.localScale = new Vector3(-t.localScale.x, t.localScale.y, t.localScale.z);
-            }
-        }
-
-        if (Input.GetKeyDown(KeyCode.W) && jumpCount < maxJump)
-        {
-            r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight);
-            jumpCount++; // Incrementamos el contador de saltos
+            Jump();
         }
     }
 
-    void FixedUpdate()
+    void Move()
     {
-        r2d.velocity = new Vector2(moveDirection * maxSpeed, r2d.velocity.y);
+        float moveInput = Input.GetAxis("Horizontal"); // Obtiene el input de movimiento lateral (-1, 0, 1)
+        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y); // Aplica el movimiento
+    }
+
+    void Jump()
+    {
+        rb.velocity = Vector2.up * jumpForce; // Aplica la fuerza de salto
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Suelo"))
+        if (collision.gameObject.CompareTag("Ground")) // Asegúrate de que tu suelo tenga el tag "Ground"
         {
-            jumpCount = 0; // Restablecer el contador de saltos cuando toca el suelo
+            isGrounded = true;
         }
     }
 
-    // Asegúrate de usar este método para cuando el personaje "deja" el suelo, si es necesario.
     void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Suelo"))
+        if (collision.gameObject.CompareTag("Ground"))
         {
-            // Esta línea es opcional, dependiendo de cómo quieras manejar la lógica de tu juego.
-            // Podrías querer hacer algo cuando el personaje deja de tocar el suelo.
+            isGrounded = false;
         }
     }
 }

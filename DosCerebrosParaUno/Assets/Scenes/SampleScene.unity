@@ -518,7 +518,7 @@ GameObject:
   - component: {fileID: 816044345}
   m_Layer: 0
   m_Name: Tilemap Suelo
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -722,7 +722,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816044340}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -793,10 +793,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7cc39743e6f3874ba8f68ca7a47519c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 3.4
-  jumpHeight: 5
-  gravityScale: 1.5
-  maxJump: 2
+  speed: 5
+  jumpForce: 5
 --- !u!212 &818713524
 SpriteRenderer:
   m_ObjectHideFlags: 0
