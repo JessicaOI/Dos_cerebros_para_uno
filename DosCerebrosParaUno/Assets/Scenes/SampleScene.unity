@@ -2440,8 +2440,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7cc39743e6f3874ba8f68ca7a47519c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 10
+  speed: 2
+  jumpForce: 3.5
 --- !u!95 &1237479284
 Animator:
   serializedVersion: 5
