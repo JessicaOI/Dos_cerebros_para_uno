@@ -14,6 +14,7 @@ public class ChangeSceneOnPlayersEnter : MonoBehaviour
         // Si ambos jugadores han entrado, cargamos la siguiente escena
         if (player1Entered && player2Entered)
         {
+            Debug.Log("Ambos jugadores han entrado. Cargando la siguiente escena...");
             LoadNextScene();
         }
     }
@@ -25,11 +26,13 @@ public class ChangeSceneOnPlayersEnter : MonoBehaviour
         if (other.CompareTag("Jugador1"))
         {
             player1Entered = true;
+            Debug.Log("Jugador 1 ha entrado al trigger.");
         }
         // Chequeamos si el jugador 2 ha entrado
         else if (other.CompareTag("Jugador2"))
         {
             player2Entered = true;
+            Debug.Log("Jugador 2 ha entrado al trigger.");
         }
     }
 
@@ -40,11 +43,13 @@ public class ChangeSceneOnPlayersEnter : MonoBehaviour
         if (other.CompareTag("Jugador1"))
         {
             player1Entered = false;
+            Debug.Log("Jugador 1 ha salido del trigger.");
         }
         // Chequeamos si el jugador 2 ha salido
         else if (other.CompareTag("Jugador2"))
         {
             player2Entered = false;
+            Debug.Log("Jugador 2 ha salido del trigger.");
         }
     }
 
