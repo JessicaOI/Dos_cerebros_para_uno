@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; // Necesitamos este namespace para trabajar con escenas
+using UnityEngine.SceneManagement; // Necesario para trabajar con escenas
 
 public class ChangeSceneOnPlayersEnter : MonoBehaviour
 {
@@ -9,7 +9,6 @@ public class ChangeSceneOnPlayersEnter : MonoBehaviour
     private bool player1Entered = false;
     private bool player2Entered = false;
 
-    // Update se llama en cada frame
     void Update()
     {
         // Si ambos jugadores han entrado, cargamos la siguiente escena
@@ -34,6 +33,21 @@ public class ChangeSceneOnPlayersEnter : MonoBehaviour
         }
     }
 
+    // OnTriggerExit se llama cuando otro collider sale del trigger
+    private void OnTriggerExit(Collider other)
+    {
+        // Chequeamos si el jugador 1 ha salido
+        if (other.CompareTag("Jugador1"))
+        {
+            player1Entered = false;
+        }
+        // Chequeamos si el jugador 2 ha salido
+        else if (other.CompareTag("Jugador2"))
+        {
+            player2Entered = false;
+        }
+    }
+
     // Función para cargar la siguiente escena en el listado del build
     void LoadNextScene()
     {
@@ -43,4 +57,3 @@ public class ChangeSceneOnPlayersEnter : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
 }
-
