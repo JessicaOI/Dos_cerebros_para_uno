@@ -19,8 +19,8 @@ public class ChangeSceneOnPlayersEnter : MonoBehaviour
         }
     }
 
-    // OnTriggerEnter se llama cuando otro collider ingresa al trigger
-    private void OnTriggerEnter(Collider other)
+    // OnTriggerEnter2D se llama cuando otro collider2D ingresa al trigger
+    private void OnTriggerEnter2D(Collider2D other)
     {
         // Chequeamos si el jugador 1 ha entrado
         if (other.CompareTag("Jugador1"))
@@ -36,8 +36,8 @@ public class ChangeSceneOnPlayersEnter : MonoBehaviour
         }
     }
 
-    // OnTriggerExit se llama cuando otro collider sale del trigger
-    private void OnTriggerExit(Collider other)
+    // OnTriggerExit2D se llama cuando otro collider2D sale del trigger
+    private void OnTriggerExit2D(Collider2D other)
     {
         // Chequeamos si el jugador 1 ha salido
         if (other.CompareTag("Jugador1"))
